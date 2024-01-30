@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="stylesheet" href="css/form.css"/>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
 
     <body>
@@ -26,6 +28,7 @@
                 <div class="section-inner"> 
             <img src="img/evocatus.jpg" alt="Hero Helix" class="profile-img">
             <h1>This is Double Helix.</h1>
+            <p>A digital alchemist</p>
                 </div>
             </section>
             <section id="About">
@@ -90,40 +93,14 @@
                         <li>Art Pack 3: XROMA</li>
                     </ul>
                     <!-- Form Started -->
-                    <div class="container form-top">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                                <div class="panel panel-danger">
-                                    <div class="panel-body">
-                                        <form id="reused_form">
-                                             <div class="form-group">
-                                                 <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
-                                                 <input type="text" name="name" class="form-control" placeholder="Enter Name">
-                                             </div>
-                                             <div class="form-group">
-                                                 <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
-                                                 <input type="email" name="email" class="form-control" placeholder="Enter Email">
-                                             </div>
-                                             <div class="form-group">
-                                                 <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
-                                                 <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
-                                             </div>
-                                             <div class="form-group">
-                                                 <button class="btn btn-raised btn-block btn-danger">Post →</button>
-                                             </div>
-                                        </form>
-                                        <div id="error_message" style="width:100%; height:100%; display:none; ">
-                                        <h4>Error</h4>
-                                        Sorry there was an error sending your form.
-                                        </div>
-                                        <div id="success_message" style="width:100%; height:100%; display:none; ">
-                                        <h2>Success! Your Message was Sent Successfully.</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
                     <!-- Form Ended -->
                 </div>
             </section>
@@ -144,4 +121,5 @@
             © Copyright Double Helix AVR-Projects, 2019
         </footer>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>
