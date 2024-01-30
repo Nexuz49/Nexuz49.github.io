@@ -7,10 +7,17 @@ Revival Branch created with the purpose of restructuring and changing the conten
 Overhaul Changelog:
 
 -Restructure Navbar, menu icons and social icons.
+
 -Remove and replace current contact form with a new design and more responsiveness.
+
 -Repurpose the About section and turn into a Services section with detailed information on offers.
+
 -Overhaul Footer and incorporate Social chapter with interactivity.
+
 -Revamp "Landing" Section to include a bit more content.
+
 -Add basic email functionality to new Form. 
+
 -Add CSS effects to buttons and icons.
+
 -Add Call-to-action to page.
